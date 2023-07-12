@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/flora"
+        android:text="" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/bg" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/sccocw" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/mlbbp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="180dp"
+        android:background="@color/flora"
+        android:hint="@string/DCA"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/flora"
+        android:hint="@string/MARS"
+        android:layout_marginLeft="0dp"
+        android:gravity="center"
+        android:textSize="30sp"
+    />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/vr"
+
+        />
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:hint="@string/OneWay"
+        android:background="@color/flora"
+        android:textSize="30sp"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="20dp"
+        />
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:button="@color/black"
+        android:layout_centerHorizontal="true"
+        />
+<TextView
+    android:layout_width="150dp"
+    android:layout_height="30dp"
+    android:layout_marginTop="480dp"
+    android:hint="@string/i_travller"
+    android:background="@color/flora"
+    android:textSize="20sp"
+    android:layout_marginLeft="20dp"
+
+    />
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
